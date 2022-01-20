@@ -41,14 +41,15 @@ nav>a:hover {
 
 /* logo */
 
-section {
+.section-1 {
     flex: 1;
 }
 
-#logo {
+.section-1 #logo {
     display: block;
     margin: 0px auto;
     margin-top: 107px;
+    padding-bottom: 2px;
 }
 
 
@@ -60,6 +61,7 @@ section {
 	position: relative;
 	margin-top: -8px;
 	text-align: center;
+    padding-top: 16px;
 }
 
 #search_box #search_input {
