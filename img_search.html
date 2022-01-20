@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Search</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -12,5 +13,22 @@
             <a class="nav-link" href="index.html">Google Search</a>
         </nav>
     </header>
+
+    <section class="section-1">
+            
+        <img src="img/googlelogo.png" alt="Google Images Logo" class="logo">
+        <p class="logo_images">Images</p>
+        <div id="search_box">
+            <form action="https://google.com/search">
+                <input type="text" name="q" id="search_input">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="hidden" name="sclient" value="img">
+                <input type="submit" value="Search" class="search_button">
+                <input type="submit" value="I'm Feeling Lucky" class="search_button" formaction="https://google.com/search">
+
+            </form>
+        </div>
+        
+    </section>
 </body>
 </html>

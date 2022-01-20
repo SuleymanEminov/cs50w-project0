@@ -45,11 +45,17 @@ nav>a:hover {
     flex: 1;
 }
 
-.section-1 #logo {
+.section-1 .logo {
     display: block;
     margin: 0px auto;
     margin-top: 107px;
     padding-bottom: 2px;
+}
+
+.section-1 .logo_images {
+    display: block;
+    position: relative;
+    text-align: center;
 }
 
 
