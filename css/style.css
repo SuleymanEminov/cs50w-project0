@@ -39,6 +39,7 @@ nav>a:hover {
 }
 
 
+
 /* logo */
 
 .section-1 {
@@ -121,7 +122,75 @@ nav>a:hover {
 }
 
 
+/* ADVANCED SEARCH */
 
+#a_nav {
+    margin-left: 25px;
+    justify-content: flex-end;
+}
+
+#nav_logo img {
+    width: 100px;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 90%;
+}
+
+
+
+.a_headline {
+    color: red;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* advanced form box */
+.advanced_search {
+    border-top: 1px solid #bbb;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.advanced_form {
+    padding-top: 25px;
+    font-size: small;
+}
+
+.a_search_input {
+    display: inline-block;
+    width: 500px;
+    height: 26px;
+    padding: 13px;
+    border: 1px solid #ddd;    
+	transition: box-shadow 100ms;
+}
+
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    padding-bottom: 25px;
+   
+}
+
+.a_search_button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color:white;
+     background-color: rgb(31, 108, 240);
+    position: relative;
+    left: 620px;
+    height: 26px;
+    display: inline-block;
+    padding: 9px 10px;
+    padding-bottom: 23px;
+    transition: border-color 100ms;
+}
+
+.a_search_button:hover {
+    border: 1px solid #aaa;
+}
 
 
 

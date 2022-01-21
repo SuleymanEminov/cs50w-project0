@@ -5,26 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="img/googlelogo.png" alt="Google Logo" class="nav_logo">
+        <nav id="a_nav">
+            <div id="nav_logo">
+                <img src="img/googlelogo.png" alt="Google Logo">
+            </div>
+            <a href="index.html" class="a_nav_link">Google Search</a>
         </nav>
     </header>
 
+    
     <section>
-        <div>
+        <h3 class="a_headline">Advanced Search</h3>
+
+        <div class="advanced_search">
             <p>Find pages with...</p>
-            <form action="https://google.com/search">
-                <label for="as_q">all these words:</label>
-                <input type="text" name="as_q" id="as_q" class="a_search_form">
-                <label for="as_epq">this exact word or phrase:</label>
-                <input type="text" name="as_epq" id="as_epq" class="a_search_form">
-                <label for="as_oq">any of these words:</label>
-                <input type="text" name="as_oq" id="as_oq" class="a_search_form">
-                <label for="as_eq">any of these words:</label>
-                <input type="text" name="as_eq" id="as_eq" class="a_search_form">
+            <form action="https://google.com/search" class="advanced_form">
+                <p >
+                    <label for="as_q">all these words:</label>
+                <input type="text" name="as_q" id="as_q" class="a_search_input">
+                </p>
+
+                <p >
+
+                    <label for="as_epq">this exact word or phrase:</label>
+                    <input type="text" name="as_epq" id="as_epq" class="a_search_input">
+                </p>
+                
+                <p >
+
+                    <label for="as_oq" >any of these words:</label>
+                    <input type="text" name="as_oq" id="as_oq" class="a_search_input">
+                </p>
+                <p >
+                    
+                    <label for="as_eq" >any of these words:</label>
+                    <input type="text" name="as_eq" id="as_eq" class="a_search_input">
+                </p>
+                <input type="submit" value="Advanced Search" class="a_search_button">
             </form>
         </div>
     </section>
